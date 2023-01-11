@@ -5,7 +5,9 @@ import random
 
 # 画爱心
 def love(x, y):
+    # 初始化turtle,创建对象Turtle并将其分配给变量
     lv = turtle.Turtle()
+    # 这个方法是用来使Turtle隐身的。隐藏箭头
     lv.hideturtle()
     lv.up()
     # 定位
@@ -64,7 +66,7 @@ def tree(branchLen, t):
 myWin = turtle.Screen()
 t = turtle.Turtle()
 t.hideturtle()
-t.speed(1000)
+t.speed(3)
 t.left(90)
 t.up()
 t.backward(200)
@@ -74,3 +76,4 @@ t.pensize(32)
 t.forward(60)
 tree(100, t)
 myWin.exitonclick()
+# turtle.done()

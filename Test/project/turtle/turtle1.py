@@ -2,7 +2,7 @@
 # 开发时间：2023/1/4 15:27
 import math as m
 import random as r
-import turtle as t
+import turtle1 as t
 
 t.speed(0)
 t.delay(0)

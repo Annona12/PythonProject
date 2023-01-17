@@ -5,8 +5,8 @@ import time
 for i in range(4):
     print(str(int(time.time()))[-2:])#获取时间戳的最后两位
     time.sleep(1)
-# localtime = time.localtime()
-# print(localtime)
-# import time
-# localtime = time.ctime()
-# print ("本地时间为 :", localtime)
+localtime = time.localtime()
+print(localtime)
+import time
+localtime = time.ctime()
+print ("本地时间为 :", localtime)

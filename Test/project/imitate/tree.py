@@ -57,9 +57,10 @@ def tree(branchLen, t):
         t.up()
         t.backward(branchLen)
 
+
 t=turtle.Turtle()
 t.hideturtle()
-t.speed(1000)#设置速度
+t.speed(3)#设置速度
 t.left(90)#原始是水平画线，向左就是向上画
 t.up()#将线从屏幕上面拉起
 t.backward(250)#将起点直接往后移动
